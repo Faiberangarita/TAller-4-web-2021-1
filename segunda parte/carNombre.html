@@ -1,0 +1,191 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        
+        <div class="section container">
+            <center><h1 class="blue-text">Formualrio de registro de automoviles</h1></center>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row card-panel">
+                        <div class="input-field col s4">
+                            <select >
+                              <option value="" disabled selected>Selecciona la id correspondiente</option>
+                              <option >00000000001</option>
+                              <option >00000000002</option>
+                              <option >00000000003</option>
+                              <option >00000000004</option>
+                              <option >00000000005</option>
+                              <option >00000000006</option>
+                              <option >00000000007</option>
+                              <option >00000000008</option>
+                              <option >00000000009</option>
+                              <option >00000000010</option>
+                              <option >00000000011</option>
+                            </select>
+                            <label>Id del Automovil</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <select >
+                                <option value="" disabled selected>Selecciona el Combustible</option>
+                                <option >Eléctrico</option>
+                                <option >Gasolina 98</option>
+                                <option >Gasolina 95</option>
+                                <option >Bioetanol</option>
+                                <option >Gas natural</option>
+                                <option >Gasoleo A</option>
+                                <option >Diesel A+</option>
+                                <option >BioDiesel</option>
+                                <option>Diesel 1D</option>
+                                <option >Diesel 2D</option>
+                                <option >Diesel 4D</option>
+                                <option >Gasoleo B</option>
+                                <option >Gasoleo c</option>
+                            </select>
+                            <label>Combustible</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <select >
+                                <option value="" disabled selected>Selecciona el tipo de Automovil</option>
+                                <option value="1">Sedan</option>
+                                <option value="2">Urbano</option>
+                                <option value="2">Hatchback</option>
+                                <option value="2">Descapotable</option>
+                                <option value="2">Coupe</option>
+                                <option value="3">Deportivo</option>
+                                <option value="4">Monovolumen</option>
+                                <option value="5">Todoterreno</option>
+                                <option value="1">Suv</option>
+                                <option value="2">Roadster</option>
+                                <option value="3">Pickup</option>
+                                <option value="4">Furgoneta</option>
+                            </select>
+                            <label>Tipo de Automovil</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <select >
+                                <option value="" disabled selected>Seleccione Estado</option>
+                                <option value="1">Nuevo</option>
+                                <option value="2">Excelente</option>
+                                <option value="2">Muy bueno</option>
+                                <option value="2">Aceptable</option>
+                                <option value="2">Necesita Reparaciones</option>
+                            </select>
+                            <label>Estado del Automovil</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <select >
+                                <option value="" disabled selected>Seleccione la Marca</option>
+                                <option value="1">Tesla</option>
+                                <option value="2">BMW</option>
+                                <option value="2">Ford</option>
+                                <option value="2">General Motors</option>
+                                <option value="2">Honda</option>
+                                <option value="3">Hyundai</option>
+                                <option value="4">Kia</option>
+                                <option value="5">Renault</option>
+                                <option value="1">Toyota</option>
+                                <option value="2">Suzuki</option>
+                                <option value="3">Mercedens Benz</option>
+                                <option value="4">Jeep</option>
+                            </select>
+                            <label>Marca del Automovil</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <select >
+                                <option value="" disabled selected>Seleccione cargo</option>
+                                <option value="1">Administrador</option>
+                                <option value="2">Vendedor</option>
+                                <option value="2">Comprador</option>
+                                <option value="2">Gerente</option>
+                            </select>
+                            <label>Usuario</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <select >
+                                <option value="" disabled selected>Seleccione el pais</option>
+                                <option value="1">Colombia</option>
+                                <option value="2">Peru</option>
+                                <option value="3">Venezuela</option>
+                                <option value="4">USA</option>
+                                <option value="5">Argentina</option>
+                            </select>
+                            <label>Pais de procedencia</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="modelo" type="text" class="validate">
+                            <label for="modelo">Modelo</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="año" type="text" class="validate">
+                            <label for="año">Año</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="motor" type="text" class="validate">
+                            <label for="motor">Motor</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="factura" type="text" class="validate">
+                            <label for="factura"># Factura</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="caja" type="text" class="validate">
+                            <label for="caja">Caja de venta</label>
+                        </div>
+                        <div class="input-field col s6">           
+                            <input id="fecha" type="text" class="datepicker">
+                            <label for="fecha">Fecha</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="venta" type="text" class="validate">
+                            <label for="venta">Valor de venta</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="moneda" type="text" class="validate">
+                            <label for="moneda">Moneda</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Descripcion 1</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <textarea id="textarea2" class="materialize-textarea"></textarea>
+                            <label for="textarea2">Descripcion 2</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <textarea id="textarea3" class="materialize-textarea"></textarea>
+                            <label for="textarea3">Descripcion 3</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <textarea id="textarea4" class="materialize-textarea"></textarea>
+                            <label for="textarea4">Apreciaciones</label>
+                        </div>
+                    </div>
+                    <br>
+                    <input type="submit" value="Registrar">
+                </form>
+            </div>
+        </div>
+       
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script> 
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('select');
+        var instances = M.FormSelect.init(elems);
+      });
+
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.datepicker');
+        var instances = M.Datepicker.init(elems);
+     });
+      </script>
+    </body>
+
+  </html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Registro de Usuarios</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-=divice width, initial-scale=2.0"> 
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+
+<div class="container">
+    <h1>Ingresa tus datos</h1>
+<form >
+    <label for="id">Id</label><br>
+   
+    <select name="Id">
+        <option value="1">00000000001</option>
+        <option value="2">00000000002</option>
+        <option value="3">00000000003</option>
+        <option value="4">00000000004</option>
+        <option value="5">00000000005</option>
+        <option value="1">00000000006</option>
+        <option value="2">00000000007</option>
+        <option value="3">00000000008</option>
+        <option value="4">00000000009</option>
+        <option value="5">00000000010</option>
+        <option value="5">00000000011</option>
+    </select>
+    <br>
+    <label for="Combustible" id="id_movidoa">Combustible</label>
+    <select name="Id">
+        <option value="1">Eléctrico</option>
+        <option value="2">Gasolina 98</option>
+        <option value="2">Gasolina 95</option>
+        <option value="2">Bioetanol</option>
+        <option value="2">Gas natural</option>
+        <option value="3">Gasoleo A</option>
+        <option value="4">Diesel A+</option>
+        <option value="5">BioDiesel</option>
+        <option value="1">Diesel 1D</option>
+        <option value="2">Diesel 2D</option>
+        <option value="3">Diesel 4D</option>
+        <option value="4">Gasoleo B</option>
+        <option value="5">Gasoleo c</option>
+        
+    </select>
+    <br>
+    <label for="tipo" id="id_tipocoche">Tipo de coche</label>
+    <select name="Id">
+        <option value="1">Sedan</option>
+        <option value="2">Urbano</option>
+        <option value="2">Hatchback</option>
+        <option value="2">Descapotable</option>
+        <option value="2">Coupe</option>
+        <option value="3">Deportivo</option>
+        <option value="4">Monovolumen</option>
+        <option value="5">Todoterreno</option>
+        <option value="1">Suv</option>
+        <option value="2">Roadster</option>
+        <option value="3">Pickup</option>
+        <option value="4">Furgoneta</option>
+       
+        
+    </select>
+
+    <br>
+    <label for="estado" id="id_estado">Estado</label>
+    <select name="Id">
+        <option value="1">Nuevo</option>
+        <option value="2">Excelente</option>
+        <option value="2">Muy bueno</option>
+        <option value="2">Aceptable</option>
+        <option value="2">necesita reparaciones</option>
+       
+        
+    </select>
+
+    <br>
+    <label for="marca" id="id_marca">Marca</label>
+    <select name="Id">
+        <option value="1">Tesla</option>
+        <option value="2">BMW</option>
+        <option value="2">Ford</option>
+        <option value="2">General Motors</option>
+        <option value="2">Honda</option>
+        <option value="3">Hyundai</option>
+        <option value="4">Kia</option>
+        <option value="5">Renault</option>
+        <option value="1">Toyota</option>
+        <option value="2">Suzuki</option>
+        <option value="3">Mercedens Benz</option>
+        <option value="4">Jeep</option>
+       
+        
+    </select>
+
+    <br>
+    <label for="user" id="id_user">Usuario</label>
+    <select name="Id">
+        <option value="1">Administrador</option>
+        <option value="2">Vendedor</option>
+        <option value="2">Comprador</option>
+        <option value="2">Gerente</option>
+        
+    </select>
+    
+    <br>
+    <label for="pais">Pais</label>
+    <br>
+    <select name="Pais">
+        <option value="1">Colombia</option>
+        <option value="2">Peru</option>
+        <option value="3">Venezuela</option>
+        <option value="4">USA</option>
+        <option value="5">Argentina</option>
+    </select>
+    <br>
+    <label for="nombre">Modelo</label>
+   <br>
+  
+   <input type="text" name="modelo" id="idmodelo" placeholder="eje: Mustang">
+   <br>
+
+   
+    <label for="nombre">Año</label>
+    <br>
+
+   <input type="number" name="año" id="ano" placeholder="eje: 2019">
+   <br>
+
+   <label for="nombre">Detalle</label>
+    <br>
+
+   <input type="text" name="detalle" id="iddetalle" placeholder="eje: es verde">
+   <br>
+
+   <label for="nombre">Caja</label>
+   <br>
+
+  <input type="number" name="caja" id="idcaja" placeholder="eje: 0265543854">
+  <br>
+
+  <label for="nombre">Motor</label>
+  <br>
+
+ <input type="number" name="motor" id="idmotor" placeholder="012176556">
+ <br>
+
+ <label for="nombre">Fecha de compra</label>
+  <br>
+
+ <input type="date" name="fcompra" id="idfcompra" placeholder="eje: 05/06/2002">
+ <br>
+
+ <label for="nombre">Precio</label>
+ <br>
+
+<input type="number" name="precio" id="idprecio" placeholder="30000000">
+<br>
+
+<label for="nombre">Moneda</label>
+<br>
+
+<input type="text" name="moneda" id="idmoneda" placeholder="eje: dolar">
+<br>
+
+<label for="nombre">Descripcion del auto #1</label>
+<br>
+<textarea name="comentario" rows="3" cols="30" maxlength="85" placeholder="Escribe una descripcion"></textarea>
+<br>
+
+<label for="nombre">Descripcion #2</label>
+<br>
+<textarea name="comentario" rows="3" cols="30" maxlength="85" placeholder="Escribe una descripcion"></textarea>
+<br>
+
+<label for="nombre">Descripcion  #3</label>
+<br>
+<textarea name="comentario" rows="3" cols="30" maxlength="85" placeholder="Escribe una descripcion"></textarea>
+<br>
+
+<label for="nombre">Destacar</label>
+<br>
+<textarea name="comentario" rows="3" cols="30" maxlength="85" placeholder="algo en lo que pueda destacar el auto"></textarea>
+<br>
+<input type="submit" value="Registrar">
+
+</form>
+
+</div>
+</body>
+</html>
